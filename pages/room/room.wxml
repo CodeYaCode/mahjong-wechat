@@ -1,0 +1,32 @@
+<view class="container">
+
+  <!-- <scroll-view scroll-y>
+    <view class="thead">
+      <view class="tr">
+        <view class="th">#</view>
+        <view class="th">winner</view>
+        <view class="th">score</view>
+        <view class="th">x1</view>
+        <view class="th">x22</view>
+        <view class="th">x333</view>
+        <view class="th">x4444</view>
+      </view>
+    </view>
+    <view class="tbody">
+      <view class="tr">
+        <view class="td">#</view>
+        <view class="td">winner</view>
+        <view class="td">score</view>
+        <view class="td">x1</view>
+        <view class="td">x22</view>
+        <view class="td">x333</view>
+        <view class="td">x4444</view>
+      </view>
+    </view>
+  </scroll-view> -->
+  <view class="btn-area">
+    <navigator url="/pages/rule/rule" hover-class="navigator-hover">跳转到新页面</navigator>
+    <navigator url="../../redirect/redirect/redirect?title=redirect" open-type="redirect" hover-class="other-navigator-hover">在当前页打开</navigator>
+    <navigator url="/pages/history/history" open-type="switchTab" hover-class="other-navigator-hover">切换 Tab</navigator>
+  </view>
+</view>

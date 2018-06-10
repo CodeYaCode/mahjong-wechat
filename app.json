@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/room/room",
+    "pages/rule/rule",
+    "pages/history/history"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Mahjong",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/rule/rule",
+      "text": "规则"
+    }, {
+      "pagePath": "pages/room/room",
+      "text": "房间"
+    }, {
+      "pagePath": "pages/history/history",
+      "text": "历史"
+    }]
+  }
+}

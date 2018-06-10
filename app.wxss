@@ -1,0 +1,50 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 100rpx;
+  box-sizing: border-box;
+} 
+
+.h1 {
+  font-size: 30px;
+}
+
+.h2 {
+  font-size: 26px;
+}
+
+.h3 {
+  font-size: 22px;
+}
+
+.h4 {
+  font-size: 18px;
+}
+
+.h5 {
+  font-size: 14px;
+}
+
+/* table  */
+scroll-view>view {
+  overflow-y: auto;
+}
+
+.thead>.tr {
+  border-top: 1rpx solid #ccc;
+}
+
+.tr {
+  border-bottom: 1rpx solid #ccc;
+}
+
+.tr>view {
+  margin-right: 20rpx;
+  padding-right: 20rpx;
+  display: inline;
+  border-right: 1rpx solid #ccc;
+}

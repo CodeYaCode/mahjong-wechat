@@ -1,0 +1,14 @@
+.list {
+  width: 100%;
+  margin-bottom: 30rpx;
+  border-bottom: 1px solid #ccc;
+}
+
+.list>.title {
+  margin-left: 0rpx;
+  color: cornflowerblue;
+}
+
+.list>.item {
+  margin-bottom: 20rpx;
+}
